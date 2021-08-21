@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #212121!important;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    text-align:center;
+    flex-direction:column;
+    align-items:center;
+    color: white;
+}
+main{
+    position: relative;
+    font-family: 'hanson';
+    font-weight: 900;
+    color: white;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#popowi{
+    width: 400px;
+}
+
+#btn:focus{
+    outline:none;
+}
+.credit{
+    margin-top: 2vh;
+    font-family: 'rubik';
+    filter: drop-shadow(2px 2px black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    bottom: 0;
+}
+@media only screen and (max-width: 480px){
+    #popowi{
+        width:200px;
+    }
+}
